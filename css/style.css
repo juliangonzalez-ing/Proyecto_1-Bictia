@@ -1,0 +1,259 @@
+
+/*aca importa las fuentes*/
+/*hay que llamar la familia de la fuente(google fonts seccion importar)*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');/*fuente titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');/*fuente de cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');/*fuente de formulario*/
+/*asi se intecractua con una etiqueta en este caso body*/
+@media(min-width: 700px) and (max-width:10000px){/* este @media ayuda a acomodar la pagina al tamaño*/
+body{
+   /*margin: 20px;*/
+   background-image: url('https://images.all-free-download.com/images/graphicthumb/rippled_wall_background_01_hd_pictures_169887.jpg');
+   background-size: cover;/*reescala la imagen*/
+   background-position: center;/*centra la imagen*/
+   background-repeat: no-repeat;/*evita que se repita*/
+   cursor: help;/*cambiar el simbolo de mouse*/
+} 
+ 
+/*con las clases en este caso en index.html hay una clases llamada "navindex" en el nav */
+.navindex{
+    background: #000;/*fondo del nav*/
+}
+.articulo1{
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    margin: 200px, 20px;
+}
+
+.formindex{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+   }
+
+.footerindex{
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    margin: 200px, 20px; 
+}
+
+/*con i-d que se asignen en el html. ej: imagen, tiulopagina,etc*/
+#imagenlogo{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* arhivos mimificados: 1 sola linea de codigo= menos peso*/
+
+#titulopagina{
+    background-color: rgb(25, 209, 19);
+    text-align: center;
+    font-family: 'Dela Gothic One', cursiva;
+    font-size: 2rem;
+    color: blue;
+}
+#botonformulario{
+    font-family: 'Nanum Brush Script', cursive !important;/*important: esta etiqueta indica
+    esa parte de codigo es prioditario*/
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#ingresodatos{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2rem;
+}
+#footerindex{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#inputs{
+text-align: center;
+}
+#inputnumero{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2rem;
+}
+#listaformulario{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2rem;  
+}
+#cargararchivo{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2rem; 
+}
+
+.contenedorflexbox div{
+    width: 100px;
+    margin: 10px;    
+    background-color: rgb(202, 16, 16);
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+
+    }
+.contenedorflexbox{
+      /*  width: 100%;
+        height: 100px;*/
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        padding: 10px; 
+        
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    /*
+        width: 24%;
+        height: 40%;*/
+       
+    
+}
+th{
+    font-family: 'Dela Gothic One', cursiva;
+    
+    font-size: 2rem;  
+    border: 2px solid black;
+    padding: 10px;
+}
+td{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2rem;  
+    border: 2px solid black;
+    padding: 10px;
+}
+}
+
+/*cuando la ventana esta pequeña*/
+@media(min-width: 10px) and (max-width:699px){/* este @media ayuda a acomodar la pagina al tamaño*/
+    body{
+       /*margin: 20px;*/
+       background-image: url('https://images.all-free-download.com/images/graphicthumb/rippled_wall_background_01_hd_pictures_169887.jpg');
+       background-size: cover;/*reescala la imagen*/
+       background-position: center;/*centra la imagen*/
+       background-repeat: no-repeat;/*evita que se repita*/
+       cursor: help;/*cambiar el simbolo de mouse*/
+    } 
+     
+    /*con las clases en este caso en index.html hay una clases llamada "navindex" en el nav */
+    .navindex{
+        background: #000;/*fondo del nav*/
+    }
+    .articulo1{
+        font-family: 'Rancho', cursive;
+        font-size: 2rem;
+        margin: 200px, 20px;
+    }
+    
+    .formindex{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 3rem;
+        text-align: center;
+       }
+    
+    .footerindex{
+        font-family: 'Rancho', cursive;
+        font-size: 2rem;
+        margin: 200px, 20px; 
+    }
+    
+    /*con i-d que se asignen en el html. ej: imagen, tiulopagina,etc*/
+    #imagenlogo{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    /* arhivos mimificados: 1 sola linea de codigo= menos peso*/
+    
+    #titulopagina{
+        background-color: rgb(25, 209, 19);
+        text-align: center;
+        font-family: 'Dela Gothic One', cursiva;
+        font-size: 2rem;
+        color: blue;
+    }
+    #botonformulario{
+        font-family: 'Nanum Brush Script', cursive !important;/*important: esta etiqueta indica
+        esa parte de codigo es prioditario*/
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #ingresodatos{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2rem;
+    }
+    #footerindex{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #inputs{
+    text-align: center;
+    }
+    #inputnumero{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2rem;
+    }
+    #listaformulario{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2rem;  
+    }
+    #cargararchivo{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2rem; 
+    }
+    
+    .contenedorflexbox div{
+        width: 100px;
+        margin: 10px;    
+        background-color: rgb(202, 16, 16);
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border: 2px solid black;
+    
+        }
+    .contenedorflexbox{
+          /*  width: 100%;
+            height: 100px;*/
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            padding: 10px; 
+            
+    }
+    .elemento{
+        width: 100px;
+        height: 100px;
+        /*
+            width: 24%;
+            height: 40%;*/
+           
+        
+    }
+    th{
+        font-family: 'Dela Gothic One', cursiva;
+        
+        font-size: 2rem;  
+        border: 2px solid black;
+        padding: 10px;
+    }
+    td{
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2rem;  
+        border: 2px solid black;
+        padding: 10px;
+    }
+    }
+    
+    

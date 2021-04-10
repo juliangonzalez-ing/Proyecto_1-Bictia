@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Ejercicio1/css/style.css">
+    <title>Mi Pagina De Prueba Web</title>
+</head>
+
+<body>
+    <nav class="navindex">
+        /*inserta una imagen para mostrar*/
+        <img style="width: 50%; height: 40%;" class="" id="imagenlogo"
+            src="https://www.elagoradiario.com/wp-content/uploads/2019/08/Bosque-3-1140x600.jpg" alt="">
+    </nav>
+    <h1 id="titulopagina">Este es el Titulo de Mi página</h1>
+    <article class="articulo1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam vero quibusdam quam sunt soluta fugiat, rem at
+        dolorem veniam ut unde, veritatis ratione quidem accusantium quasi enim, fuga nemo ducimus?
+        <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae doloremque explicabo quas reprehenderit
+        libero, dolores perferendis culpa iusto delectus numquam, odio inventore quae voluptatum distinctio, dicta eaque
+        laborum nisi in?
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro nisi mollitia! Ullam corporis, minima
+        consectetur laborum dignissimos maxime dolorum deserunt totam voluptate officiis quaerat. Aut exercitationem
+        optio at aspernatur?
+    </article>
+    <p>
+    <div class="contenedorflexbox">
+        <div class="elemento">
+            <img src="./img/num1.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num2.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num3.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num4.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num5.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num6.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num7.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num8.jpg" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num9.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+        <div class="elemento">
+            <img src="./img/num10.png" style="width: 100px; height: 100px;" alt="">
+        </div>
+    </div>
+</p><br>
+
+<table style="width: 50%; height: 40%;">
+    <thead>
+        <tr>
+            <th>primera fila</th>
+            <th>nombre</th>
+            <th>apellido</th>
+            <th>dia de clase</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">esto est combinado</th>
+            </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Aprendiz 1</th>
+        <td colspan="2" class=""> Adriana Quiroga</td>
+        <td>08/04/2021</td>
+    </tr>
+    <tr>
+        <th>Aprendiz 2</th>
+        <td class="nombrepersonatabla"> Albert</td>
+         <td class="Apellidotabla">Palacios</td>
+         <td>08/04/2021</td>
+    </tr>
+    <tr>
+        <th>Aprendiz 3</th>
+        <td class="nombrepersonatabla">andres</td>
+         <td class="Apellidotabla">Fonseca</td>
+         <td>08/04/2021</td>
+    </tr>
+    <tr>
+        <th>Aprendiz 4</th>
+        <td colspan="2" class="">Daniela Calderon</td>
+        <td>08/04/2021</td>
+    </tr>
+</tbody>
+<tfoot>
+    <th colspan="4">este footer esta combinado</th>
+</tfoot>
+</table>
+
+    <form action="" class="formindex">
+        <br> <label for="">Ingrese su nombre </label>
+        <div id="inputs"><input type="text" name="nombre" id="ingresodatos"></div> <br>
+        <label for="">Ingrese su apellido </label>
+        <div id="inputs"><input type="text" name="apellido" id="ingresodatos"> </div> <br>
+        <label for="">Seleccione el Tipo de documento: </label><select name="" id="listaformulario"> <br>
+            <option value="cedula">Cedula</option>
+            <option value="extranjeria">Cedula de Extranjeria</option>
+            <option value="nit">Nit</option>
+        </select>
+        <br><label for="">Ingrese el Numero de Documento: </label>
+        <div id="inputs"><input type="number" id="inputnumero"> </div><br>
+        <label for="">Seleccione el nivel educativo: </label><select name="" id="listaformulario"> <br>
+            <option value="bachiller">bachiller</option>
+            <option value="universitario">universitario </option>
+            <option value="especializacion">especializacion</option>
+        </select>
+        <br><label for="">ingrese numero de telefono </label>
+        <div id="inputs"><input type="number" id="inputnumero"> </div><br>
+        <label for="">Ingrese su correo </label>
+        <div id="inputs"><input type="email" name="correo" id="ingresodatos"> </div> <br>
+        <label for="">Cargue Archivo </label>
+        <div id="inputs"><input type="file" id="cargararchivo"> </div><br>
+        <input type="checkbox" name="" id="">Acepta <span><a href="https://www.youtube.com/">Terminos y Condiciones</a></span> <br>
+        
+        <input type="button" value="Enviar" id="botonformulario"> <br>
+    </form>
+</body>
+
+<footer>
+    <div class="footerindex">
+        <label for="">Este es el footer de la pagina de prueba</label>
+        <img style="width: 50%; height: 40%;" id="footerindex" src="./img/imagenfooter.jpg" alt="">
+    </div>
+</footer>
+
+</html>
